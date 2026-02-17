@@ -333,6 +333,19 @@ a {
 	background: rgba(255, 191, 165, 0.08);
 }
 
+.footer-about {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 0.78rem;
+	color: rgba(230, 220, 255, 0.78);
+	margin-top: 8px;
+}
+
+.footer-about .footer-separator {
+	color: rgba(255, 191, 165, 0.8);
+}
+
 @media (max-width: 900px) {
 	.hero-content,
 	.feature-section,

@@ -45,10 +45,20 @@ a {
 }
 
 .logo {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
 	font-weight: 700;
 	letter-spacing: 0.08em;
 	text-transform: uppercase;
 	font-size: 0.9rem;
+}
+
+.logo-icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+	object-fit: cover;
 }
 
 .main-nav {
